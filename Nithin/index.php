@@ -1,7 +1,7 @@
 <?php
 
 
-		$myfile = fopen("location_data.txt", "r") or die("Unable to open file!");
+		$myfile = fopen("https://github.com/Nithinra/nithin-1/edit/main/Nithin/index.php", "r") or die("Unable to open file!");
 		$items=fread($myfile,filesize("location_data.txt"));
 		$item=explode(",",$items);
 		$length=count($item);
